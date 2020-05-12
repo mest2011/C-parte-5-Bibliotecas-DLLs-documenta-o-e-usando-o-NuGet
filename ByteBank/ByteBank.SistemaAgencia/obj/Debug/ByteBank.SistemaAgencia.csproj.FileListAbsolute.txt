@@ -1,0 +1,10 @@
+D:\ESTUDOS\Alura\Curso c# parte 5 - biblioteca-dll-documentacao-nuget\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.exe.config
+D:\ESTUDOS\Alura\Curso c# parte 5 - biblioteca-dll-documentacao-nuget\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.exe
+D:\ESTUDOS\Alura\Curso c# parte 5 - biblioteca-dll-documentacao-nuget\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.SistemaAgencia.pdb
+D:\ESTUDOS\Alura\Curso c# parte 5 - biblioteca-dll-documentacao-nuget\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.dll
+D:\ESTUDOS\Alura\Curso c# parte 5 - biblioteca-dll-documentacao-nuget\ByteBank\ByteBank.SistemaAgencia\bin\Debug\ByteBank.Modelos.pdb
+D:\ESTUDOS\Alura\Curso c# parte 5 - biblioteca-dll-documentacao-nuget\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csprojAssemblyReference.cache
+D:\ESTUDOS\Alura\Curso c# parte 5 - biblioteca-dll-documentacao-nuget\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CoreCompileInputs.cache
+D:\ESTUDOS\Alura\Curso c# parte 5 - biblioteca-dll-documentacao-nuget\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.csproj.CopyComplete
+D:\ESTUDOS\Alura\Curso c# parte 5 - biblioteca-dll-documentacao-nuget\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.exe
+D:\ESTUDOS\Alura\Curso c# parte 5 - biblioteca-dll-documentacao-nuget\ByteBank\ByteBank.SistemaAgencia\obj\Debug\ByteBank.SistemaAgencia.pdb
