@@ -15,6 +15,14 @@ namespace ByteBank.SistemaAgencia
             ContaCorrente conta = new ContaCorrente( 132, 156165);
             Console.WriteLine(conta.Numero);
 
+            ContaCorrente conta2 = new ContaCorrente(45, 4654);
+
+            conta2.Saldo = 10;
+
+            conta2.Sacar(5);
+
+            Console.WriteLine(conta2.Saldo);
+
             Console.ReadLine();
         }
 

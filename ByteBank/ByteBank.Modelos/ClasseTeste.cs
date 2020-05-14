@@ -12,7 +12,7 @@ namespace ByteBank.Modelos
         {
             ModificadoresTeste teste = new ModificadoresTeste();
             teste.MetodoPublico();
-            teste.MetodoPrivado();
+            //teste.MetodoPrivado();
         }
         
     }

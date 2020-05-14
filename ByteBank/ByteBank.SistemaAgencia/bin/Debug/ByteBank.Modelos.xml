@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ByteBank.Modelos</name>
+    </assembly>
+    <members>
+        <member name="T:ByteBank.Modelos.ContaCorrente">
+            <summary>
+            Define tipo como conta corrente do banco bytebank
+            </summary>
+        </member>
+        <member name="M:ByteBank.Modelos.ContaCorrente.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Construtor responsavel por criar contas do banco bytebank
+            </summary>
+            <param name="agencia">Numero da agencia (Atributo <see cref="P:ByteBank.Modelos.ContaCorrente.Agencia"/>), o numero deve ser maior que zero</param>
+            <param name="numero">Numero da conta (Atributo <see cref="!:Conta"/>), o numero deve ser maior que zero</param>
+        </member>
+        <member name="M:ByteBank.Modelos.ContaCorrente.Sacar(System.Double)">
+            <summary>
+            Função responsavel por receber valor do saque (<paramref name="valor"/>) e subitrair do saldo da conta (<see cref="P:ByteBank.Modelos.ContaCorrente.Saldo"/>)
+            </summary>
+            <exception cref="T:System.ArgumentException">Erro acontece quando o paramentro <paramref name="valor"/> é menor que zero</exception>
+            <exception cref="T:ByteBank.Modelos.SaldoInsuficienteException">Erro acontece quando <see cref="P:ByteBank.Modelos.ContaCorrente.Saldo"/> é menor que o valor do parametro <paramref name="valor"/></exception>
+            <param name="valor">Valor que sera subtraido do saldo da conta, valor deve ser maior que zero e menor que o <see cref="P:ByteBank.Modelos.ContaCorrente.Saldo"/> da conta!</param>
+        </member>
+        <member name="M:ByteBank.Modelos.ContaCorrente.Depositar(System.Double)">
+            <summary>
+            Função recebe valor que sera crescentado ao saldo da propriedade <see cref="P:ByteBank.Modelos.ContaCorrente.Saldo"/> 
+            </summary>
+            <param name="valor">Parametro para acressam ao saldo da conta, valor deve ser maior que zero</param>
+        </member>
+        <member name="M:ByteBank.Modelos.ContaCorrente.Transferir(System.Double,ByteBank.Modelos.ContaCorrente)">
+            <summary>
+            Função para tranferencia de saldo entre contas bytebank
+            </summary>
+            <param name="valor">Parametro que recebe o valor que sera transferido, valor deve ser positivo.</param>
+            <param name="contaDestino">Parametro que diz qual conta sera a beneficiaria da transferencia. Passar objeto do tipo ContaCorrente.</param>
+        </member>
+    </members>
+</doc>
