@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ByteBank.Modelos;
-
+using Humanizer;
 
 namespace ByteBank.SistemaAgencia
 {
@@ -12,20 +12,29 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            ContaCorrente conta = new ContaCorrente( 132, 156165);
-            Console.WriteLine(conta.Numero);
+            DateTime data1 = new DateTime(2020, 5, 15);
+            DateTime data2 = new DateTime(2020, 8, 12);
 
-            ContaCorrente conta2 = new ContaCorrente(45, 4654);
+            TimeSpan diferenca = data2 - data1;
 
-            conta2.Saldo = 10;
-
-            conta2.Sacar(5);
-
-            Console.WriteLine(conta2.Saldo);
+            Console.WriteLine("Tempo ate fim do pagamento " + TimeSpanHumanizeExtensions.Humanize(diferenca));
 
             Console.ReadLine();
         }
 
+
+        static string ConverteDataFimPagamento(TimeSpan diferenca)
+        {
+            if (diferenca.Days > 30)
+            {
+                return diferenca.Days / 30 + " mes(es)";
+            }else if(diferenca.Days > 7)
+            {
+                return diferenca.Days / 7 + " semana(s)";
+            }
+
+            return diferenca.Days + " dia(s)";
+        }
 
     }
 }
